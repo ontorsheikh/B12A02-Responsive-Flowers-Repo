@@ -17,13 +17,13 @@ nav{
     justify-content: space-between;
     justify-items: center;
 }
-li{
+.li-1{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
-ul{
+.ul-1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,4 +85,36 @@ font-weight: bold;
     border: none;
     width: 270px;
     height: 50px;
+}
+/*main-part-two*/
+/*challenging*/
+.clng-container{
+    display: flex;
+    justify-content: center;
+    gap: auto;
+}
+.main-img-container{
+      position: relative;
+      display: inline-block;
+      
+    }
+    .main-img{
+        width: 540px;
+        height: 597px;
+    }
+
+.badge{
+    position: absolute;
+      top: -120px;
+      right:-120px;
+      width: 286px;
+}
+.plants-lover{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: regular;
+}
+.head-plants{
+    font-size: 50px;
+    font-weight: bold;
 }
