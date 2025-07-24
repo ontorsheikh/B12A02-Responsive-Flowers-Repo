@@ -52,3 +52,37 @@ ul{
 font-size: 50px;
 font-weight: bold;
 }
+/*card*/
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.flower-card{
+    width: 270px;
+    height: 485px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+
+.flower{
+    text-align: center;
+    font-size: 22px;
+    color: #111111;
+}
+.money{
+    font-size: 22px;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #E95A08;
+    color:#FFFFFF ;
+    border: none;
+    width: 270px;
+    height: 50px;
+}
