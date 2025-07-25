@@ -489,3 +489,15 @@ color: #6B7280;
         margin-left: 30px;
     }
 }
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.badge {
+  animation: rotateLogo 2s linear infinite;
+}
