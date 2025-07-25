@@ -9,10 +9,7 @@
   font-variation-settings:
     "wdth" 100;
 }
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
+
 
 
 
@@ -82,6 +79,13 @@ font-weight: bold;
     gap: 20px;
     margin-left: 150px;
     margin-right: 150px;
+}
+.flower-card:hover{
+    width:280px ;
+height: 490px;
+
+    border:5px solid #FFFFFF;
+    box-shadow: 10px 10px 10px silver;
 }
 
 .flower-card{
