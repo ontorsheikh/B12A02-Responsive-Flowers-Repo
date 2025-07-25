@@ -29,8 +29,12 @@ nav{
 
   nav {
 
-    margin:0 auto;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
     align-items: center;
+    margin-bottom: 50px;
   }
 
 
@@ -146,6 +150,10 @@ font-weight: bold;
         width: 171px;
         height:340.5px;
     }
+    .card-text{
+        text-align: center;
+        margin-left: 90px;
+    }
     
 }
 .flower-card:hover{
@@ -163,6 +171,7 @@ height: 490px;
 
 .card-text{
     text-align: center;
+
 }
 
 
@@ -223,6 +232,11 @@ height: 490px;
     }
     .badge{
         display: none;
+    }
+    .main-img-container{
+     width: 358px;
+     height: 396px;
+     margin-bottom: 90px;
     }
     
 }
@@ -327,8 +341,11 @@ height: 490px;
     
         margin: 0 auto;
     }
+    .bg-one{
+        margin-left:70px;
+    }
     .bg-two{
-        margin: 0;
+        margin-left: 70px;
     }
 .bg-three{
 
@@ -336,6 +353,7 @@ height: 490px;
     height: 197px;
     border-radius: 20px;
     margin-top: 12.5px;
+    margin-left: 70px;
     
 }
 .two-text{
@@ -353,6 +371,11 @@ height: 490px;
     padding-left: 144.5px;
     padding-top: 84px;
     color: #FFFFFF;
+}
+.main-three{
+    margin-left: 110px;
+    
+
 }
 
 
