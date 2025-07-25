@@ -10,6 +10,11 @@
     "wdth" 100;
 }
 
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 /*Nav section*/
 
 nav{
@@ -164,6 +169,7 @@ font-weight: bold;
     width: 753px;
     height: 423.13px;
     border-radius: 20px;
+    overflow: hidden;
 }
 .two-text{
     color:#FFFFFF;
@@ -178,4 +184,55 @@ font-weight: bold;
     padding-top: 237.12px;
 
 
+}
+/*footer*/
+
+
+.bg-four{
+    background-image: url(../assets/news-letter-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:533px;
+
+    margin-right: 0;
+    overflow: hidden;
+}
+.ftr-bg-text{
+    padding-top: 199px;
+    padding-left: 427px;
+
+}
+.subscriber-box{
+    padding-left: 305px;
+}
+
+
+.subscriber-box{
+    width: 100%;
+    height: 100vh;
+    
+}
+form{
+    background: #fff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button{
+   background: #E95A08; 
+   border: none;
+   outline: none;
+   padding: 10px 50px;
+   color:#fff;
+   
+   cursor: pointer;
+}
+.footer-container{
+    width: 100%;
 }
