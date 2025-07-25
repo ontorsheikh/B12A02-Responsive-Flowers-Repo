@@ -233,6 +233,21 @@ form button{
    
    cursor: pointer;
 }
-.footer-container{
-    width: 100%;
+.lst-footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    overflow: hidden;
+}
+.logo-footer{
+    display: flex;
+    gap: 20px;
+}
+.footer-list{
+    list-style: none;
+    
+}
+a{
+color: #6B7280;
 }
