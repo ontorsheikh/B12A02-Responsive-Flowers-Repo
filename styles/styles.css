@@ -22,6 +22,16 @@ nav{
     margin-left: 160px;
     margin-right: 110px;
 }
+@media  screen and (max-width:576px) {
+    .hidden{
+        display: none;
+    }
+    body{
+        margin: 0 auto;
+    }
+    
+    }
+
 .li-1{
     list-style: none;
 }
@@ -44,11 +54,9 @@ a{
 .h-color{
     color:#E95A08 ;
 }
-.p-styles{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 22px;
-    font-weight: regular;
-}
+
+    
+
 .header-container{
     width: 1193px;
     height:461px;
@@ -62,10 +70,40 @@ a{
     margin-left: 150px;
     
 }
+@media screen and (max-width: 576px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 15px;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .h-styles {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .header-img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
+}
+
 .header-img{
     width: 100%;
 
 }
+@
 /*main-part-1*/
 .h-plants{
 font-size: 50px;
@@ -158,6 +196,9 @@ height: 490px;
 }
 .p-styles{
     text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: regular;
 }
 
 .section-three{
@@ -181,14 +222,8 @@ height: 490px;
   border-radius: 20px;
   margin-bottom: 12.5px;
 }
-.one-text{
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-}
-.link-text{
-    color: #FFFFFF;
-}
+
+
 .bg-two{
     background-image: url('../assets/deal-ana.png');
     background-position: center;
@@ -201,18 +236,18 @@ height: 490px;
 .one-text{
     text-align: center;
     padding-top: 65px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
 }
 .link-text{
     text-align: center;
     padding-left: 144.5px;
     padding-top: 84px;
+    color: #FFFFFF;
 
 }
-.link-two{
-    color: #FFFFFF;
-    font-size: 28;
-    font-weight: 700;
-}
+
 .bg-three{
     background-image: url(../assets/deal-zabo.png);
     background-position: center;
@@ -233,6 +268,9 @@ height: 490px;
 .link-two{
     padding-left: 308px;
     padding-top: 237.12px;
+    color: #FFFFFF;
+    font-size: 28;
+    font-weight: 700;
 
 
 }
@@ -257,16 +295,16 @@ height: 490px;
     padding-left: 427px;
 
 }
-.subscriber-box{
-    padding-left: 420px;
-}
+
 
 
 .subscriber-box{
     width:830px;
     height: 50px;
-    
+    padding-left: 420px;
 }
+    
+
 form{
     background: #fff;
     width: 600px;
