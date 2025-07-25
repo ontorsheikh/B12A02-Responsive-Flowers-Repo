@@ -211,8 +211,11 @@ height: 490px;
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin: 0;
+        
         margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+
     }
     .badge{
         display: none;
@@ -310,9 +313,51 @@ height: 490px;
     color: #FFFFFF;
     font-size: 28;
     font-weight: 700;
-
-
 }
+
+@media screen and (max-width:576px) {
+    .section-three{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+        margin: 0;
+    }
+    .bg-two{
+        margin: 0;
+    }
+.bg-three{
+
+    width: 366px;
+    height: 197px;
+    border-radius: 20px;
+    margin-top: 12.5px;
+    
+}
+.two-text{
+    text-align: center;
+    padding-top: 65px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.link-two{
+    text-align: center;
+    padding-left: 144.5px;
+    padding-top: 84px;
+    color: #FFFFFF;
+}
+
+
+        
+    }
+    
+
+
+
 /*footer*/
 
 
@@ -341,6 +386,31 @@ height: 490px;
     width:830px;
     height: 50px;
     padding-left: 420px;
+}
+@media screen and (max-width:576px) {
+    .bg-four{
+        width: 100%;
+        height: 276px;
+        margin: 0;
+        margin-top: 20px;
+        }
+        .ftr-bg-text{
+            color: #FFFFFF;
+            font-size: 20px;
+            padding-top: 110.5px;
+            padding-left: 79px;
+            padding-right: 79px;
+        }
+        .subscriber-box{
+        width:321px;
+            height:50px;
+            padding-left:36px;
+            
+            
+
+        }
+
+    
 }
     
 
