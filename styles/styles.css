@@ -118,3 +118,64 @@ font-weight: bold;
     font-size: 50px;
     font-weight: bold;
 }
+/*main-part-three*/
+
+.section-three{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 28px;
+}
+
+
+.bg-one{
+    background-image: url('../assets/deal-bloom.png');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 366px;
+  height: 201px;
+  border-radius: 20px;
+  margin-bottom: 12.5px;
+}
+.bg-two{
+    background-image: url('../assets/deal-ana.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 197px;
+    border-radius: 20px;
+    margin-top: 12.5px;
+}
+.one-text{
+    text-align: center;
+    padding-top: 65px;
+}
+.link-text{
+    text-align: center;
+    padding-left: 144.5px;
+    padding-top: 84px;
+
+}
+.bg-three{
+    background-image: url(../assets/deal-zabo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 753px;
+    height: 423.13px;
+    border-radius: 20px;
+}
+.two-text{
+    color:#FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left:128px;
+    padding-top:172.12px ;
+
+}
+.link-two{
+    padding-left: 308px;
+    padding-top: 237.12px;
+
+
+}
